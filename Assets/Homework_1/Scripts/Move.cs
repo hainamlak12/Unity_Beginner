@@ -20,10 +20,10 @@ public class Move : MonoBehaviour
         {
             transform.Translate(Vector3.left * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * Time.deltaTime);
-        }
+        // if (Input.GetKey(KeyCode.D))
+        // {
+        //     transform.Translate(Vector3.right * Time.deltaTime);
+        // }
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * Time.deltaTime); //up la bay len ****** forward la di ve truoc
